@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', \App\Http\Controllers\Tweet\IndexController::class)->name('tweet.index');
 
 // Sample
 Route::get('/sample', [\App\Http\Controllers\Sample\IndexController::class, 'show']);
