@@ -34,19 +34,12 @@
 @push('css')
     <style>
         .tweet-option > summary {
+            display: list-item;
             list-style: none;
             cursor: pointer;
         }
-        .tweet-option[open] > summary::before {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 10;
-            display: block;
-            content: " ";
-            background: transparent;
+        summary::-webkit-details-marker {
+            display:none;
         }
     </style>
 @endpush

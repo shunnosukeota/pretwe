@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use Brick\Math\RoundingMode;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Carbon\Carbon;
 
@@ -19,7 +20,15 @@ class TweetFactory extends Factory
     {
         return [
             'user_id' => 1, // つぶやきを投稿したユーザーのIDをデフォルトで1とする
-            'content' => $this->faker->realText(100),
+            'present' => $this->faker->realText(10),
+            'gift' => ("おくりもの"),
+            'relation' => $this->faker->realText(10),
+            'situation' => $this->faker->realText(10),
+            'age' => random_int(1,100),
+            'rate' => random_int(1,5),
+            'ratedata' => random_int(1,100),
+            'rateParameter' => random_int(1,100),
+            'detail' => $this->faker->realText(100),
             'created_at' => Carbon::now()->yesterday()
         ];
     }

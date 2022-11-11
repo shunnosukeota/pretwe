@@ -19,7 +19,12 @@ class CreateController extends Controller
     {
         $tweetService->saveTweet(
             $request->userId(),
-            $request->tweet(),
+            $request->gift(),
+            $request->present(),
+            $request->relation(),
+            $request->age(),
+            $request->situation(),
+            $request->detail(),
             $request->images()
         );
         return redirect()->route('tweet.index');

@@ -9,7 +9,7 @@
 @endcomponent
 
 @component('mail::button', ['url' => route('tweet.index')])
-    つぶやきを見に行く
+    投稿を見に行く
 @endcomponent
 
 @endcomponent

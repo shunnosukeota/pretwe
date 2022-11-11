@@ -24,13 +24,13 @@ class UpdateRequest extends FormRequest
     public function rules()
     {
         return [
-            'tweet' => 'required|max:140'
+            'detail' => 'max:140'
         ];
     }
 
-    public function tweet(): string
+    public function detail(): string
     {
-        return $this->input('tweet');
+        return $this->input('detail');
     }
 
     public function id(): int

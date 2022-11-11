@@ -1,16 +1,25 @@
 @props([
-    'images' => []
+    'images' => [],
+    'im'
 ])
 
 @if(count($images) > 0)
-<div x-data="{}" class="px-2">
-    <div class="flex justify-center -mx-2">
+<div x-data="{}" class="px-2 mb-3">
+    @if(count($images) == 3 )
+    <div class="flex mx-2">
+    @else
+    <div class="flex flex-wrap justify-center mx-2">
+    @endif
         @foreach($images as $image)
-        <div class="w-1/6 px-2 mt-5">
+        <div class="w-1/2 px-2 mt-5">
             <div class="bg-gray-400">
+                @if($im == 0)
                 <a @click="$dispatch('img-modal', {  imgModalSrc: '{{ image_url($image->name) }}' })" class="cursor-pointer">
-                    <img alt="{{ $image->name }}" class="object-fit w-full" src="{{ image_url($image->name) }}">
+                    <img alt="{{ $image->name }}" class="imgg" src="{{ image_url($image->name) }}">
                 </a>
+                @else
+                    <img alt="{{ $image->name }}" class="imgg" src="{{ image_url($image->name) }}">
+                @endif
             </div>
         </div>
         @endforeach
@@ -50,6 +59,10 @@
     </div>
     @push('css')
     <style>
+        .imgg {
+            height:calc(width / 2);
+            object-fit:cover;
+        }
         [x-cloak] { display: none !important; }
     </style>
     @endpush

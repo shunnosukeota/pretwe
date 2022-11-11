@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests\Tweet;
 
+use Brick\Math\BigDecimal;
 use Illuminate\Foundation\Http\FormRequest;
+use Ramsey\Uuid\Type\Decimal;
 
 class CreateRequest extends FormRequest
 {
@@ -24,7 +26,8 @@ class CreateRequest extends FormRequest
     public function rules()
     {
         return [
-            'tweet' => 'required|max:140',
+            'present' => 'required|max:140',
+            'detail' => 'max:140',
             'images' => 'array|max:4',
             'images.*' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048'
         ];
@@ -34,14 +37,45 @@ class CreateRequest extends FormRequest
     {
         return $this->user()->id;
     }
-
-    public function tweet(): string
+    public function gift(): string
     {
-    return $this->input('tweet');
+    return $this->input('gift');
+    }
+
+    public function present(): string
+    {
+    return $this->input('present');
+    }
+    
+    public function relation(): string
+    {
+    return $this->input('relation');
+    }
+    
+    public function age(): string
+    {
+    if (is_null($this->input('age'))) {
+        dd($this->input('age'));
+    }
+    return $this->input('age');
+    }
+
+    public function situation(): string
+    {
+    return $this->input('situation');
+    }
+
+    public function detail(): string
+    {
+    if (is_null($this->input('detail'))) {
+            dd($this->input('detail'));
+        }
+    return $this->input('detail');
     }
 
     public function images(): array
     {
         return $this->file('images', []);
     }
+
 }

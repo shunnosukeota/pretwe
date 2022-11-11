@@ -22,10 +22,10 @@ class PutController extends Controller
             throw new AccessDeniedHttpException();
         }
         $tweet = Tweet::where('id', $request->id())->firstOrFail();
-        $tweet->content = $request->tweet();
+        $tweet->detail = $request->detail();
         $tweet->save();
         return redirect()
             ->route('tweet.update.index', ['tweetId' => $tweet->id])
-            ->with('feedback.success', "つぶやきを編集しました");
+            ->with('feedback.success', "投稿を編集しました");
     }
 }

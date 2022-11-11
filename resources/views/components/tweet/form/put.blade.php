@@ -10,10 +10,10 @@
         @endif
         <div class="mt-1">
             <textarea
-                name="tweet"
+                name="detail"
                 rows="3"
-                class="focus:ring-blue-400 focus:border-blue-400 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-2"
-                placeholder="つぶやきを入力">{{ $tweet->content }}</textarea>
+                class="focus:ring-yellow-400 focus:border-yellow-400 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-2"
+                placeholder="説明を入力">{{ $tweet->detail }}</textarea>
         </div>
         <p class="mt-2 text-sm text-gray-500">
             140文字まで
@@ -30,3 +30,18 @@
         </div>
     </form>
 </div>
+
+@once
+@push('css')
+
+<style>
+    footer{
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+@endpush
+@endonce

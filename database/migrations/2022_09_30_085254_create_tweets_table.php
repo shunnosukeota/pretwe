@@ -15,8 +15,17 @@ return new class extends Migration
     {
         Schema::create('tweets', function (Blueprint $table) {
             $table->id();
-            $table->string('content');
+            $table->string('gift');
+            $table->string('present');
+            $table->string('relation');
+            $table->string('age');
+            $table->string('situation');
+            $table->string('detail')->nullable();
+            $table->unsignedBigInteger('ratedata')->default(0);
+            $table->unsignedBigInteger('rateParameter')->default(0);
+            $table->string('rate')->default(0);
             $table->timestamps();
+            
         });
     }
 
