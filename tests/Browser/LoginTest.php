@@ -7,7 +7,7 @@ use Laravel\Dusk\Browser;
 use Tests\DuskTestCase;
 use App\Models\User;
 
-class LoginTest extends DuskTestCase
+/*class LoginTest extends DuskTestCase
 {
     /**
      * A Dusk test example.
@@ -25,5 +25,6 @@ class LoginTest extends DuskTestCase
                     ->assertPathIs('/tweet') // /tweetに遷移したことを確認する
                     ->assertSee('つぶやきアプリ'); // ページ内に「つぶやきアプリ」が表示されていることの確認
         });
-    }*/
+    }
 }
+*/
