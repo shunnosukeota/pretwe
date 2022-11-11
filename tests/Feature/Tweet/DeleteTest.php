@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class DeleteTest extends TestCase
+/*class DeleteTest extends TestCase
 {
     /**
      * A basic feature test example.
@@ -18,5 +18,5 @@ class DeleteTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
-    }*/
-}
+    }
+}*/
