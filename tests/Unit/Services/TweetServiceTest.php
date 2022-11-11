@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 use App\Services\TweetService;
 use Mockery;
 
-/*class TweetServiceTest extends TestCase
+class TweetServiceTest extends TestCase
 {
     /**
      * @runInSeparateProcess
@@ -30,5 +30,5 @@ use Mockery;
 
         $result = $tweetService->checkOwnTweet(2, 1);
         $this->assertFalse($result);
-    }
+    }*/
 }
