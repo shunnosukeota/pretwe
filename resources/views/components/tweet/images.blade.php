@@ -14,11 +14,11 @@
         <div class="w-1/2 px-2 mt-5">
             <div class="bg-gray-400">
                 @if($im == 0)
-                <a @click="$dispatch('img-modal', {  imgModalSrc: '{{ image_url($image->name) }}' })" class="cursor-pointer">
-                    <img alt="{{ $image->name }}" class="imgg" src="{{ image_url($image->name) }}">
+                <a @click="$dispatch('img-modal', {  imgModalSrc: '{{ asset('storage/images/' . $image->name) }}' })" class="cursor-pointer">
+                    <img alt="{{ $image->name }}" class="imgg" src="{{ asset('storage/images/' . $image->name) }}">
                 </a>
                 @else
-                    <img alt="{{ $image->name }}" class="imgg" src="{{ image_url($image->name) }}">
+                    <img alt="{{ $image->name }}" class="imgg" src="{{ asset('storage/images/' . $image->name) }}">
                 @endif
             </div>
         </div>
