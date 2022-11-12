@@ -25,14 +25,14 @@
 ## 使用技術
 
 <li>PHP 8.1.12</li>
-<li>Node.js 16.17.1</li>
-<li>Vite 3.0/li>
-<li>Node.js 16.17.1</li>
 <li>Laravel 9.39.0</li>
+<li>Node.js 16.17.1</li>
+<li>Vite 3.0<li>
 <li>MySQL 8.0.31</li>
-<li>Mac OS(Ventura)</li>
+<li>Mac OS</li>
 <li>AWS(EC2,Nginx)</li>
 <li>Heroku</li>
+<li>ConoHa WING</li>
 <li>Docker 20.10.17</li>
 
 ## 機能一覧
@@ -43,6 +43,7 @@
 <li>検索</li>
 <li>評価</li>
 <li>投稿の詳細</li>
+<li>ページネーション</li>
 <li>マイページ</li>
 <li>ユーザーのページ</li>
 <li>投稿の編集</li>
@@ -88,21 +89,18 @@
 5. コメントを入力
 6. 評価を投稿
 
-### Premium Partners
+## こだわった点
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+<li>クエリを使用したことで、検索結果が正確に表示される</li>
+<li>平均評価が投稿一覧に瞬時に反映されるよう、評価を視覚化した</li>
+<li>評価機能は、投稿・ユーザーごとに管理し、同ユーザーによる平均評価の荒らしを防ぐ</li>
+
+## 苦労した点
+
+<li>MacOs（M1）の開発環境構築は、文献が少ないため時間がかかった</li>
+<li>MixからViteへ移行したため、なかなかフロントエンドが反映されず苦労した</li>
+<li>評価と投稿のデータベースを結びつけることに手間がかかった</li>
+<li>AWSにおいて、Nginxやsock、composerの設定の際、エラーが発生し、原因解明に時間がかかった。</li>
 
 ## Contributing
 
