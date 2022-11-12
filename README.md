@@ -2,7 +2,7 @@
 
 ## Overview
 
-You can check out the app on http://pretwe-app.herokuapp.com  or http://pretwe.online
+You can check out the app on [Heroku](http://pretwe-app.herokuapp.com)  or http://pretwe.online
 
 This app is for sharing gifts you have received and gifts you have givven.
 
