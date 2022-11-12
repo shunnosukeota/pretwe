@@ -29,11 +29,11 @@
 <li>Node.js 16.17.1</li>
 <li>Vite 3.0<li>
 <li>MySQL 8.0.31</li>
-<li>Mac OS</li>
 <li>AWS(EC2,Nginx)</li>
 <li>Heroku</li>
 <li>ConoHa WING</li>
 <li>Docker 20.10.17</li>
+<li>Mac OS(M1)</li>
 
 ## 機能一覧
 
@@ -102,9 +102,15 @@
 <li>評価と投稿のデータベースを結びつけることに手間がかかった</li>
 <li>AWSにおいて、Nginxやsock、composerの設定の際、エラーが発生し、原因解明に時間がかかった。</li>
 
-## Contributing
+## 今後の改善点
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<li>ヘルプページや使い方を明示</li>
+<li>投稿者に、評価の通知機能などの新たなメリットを付加</li>
+<li>検索だけでなく、プレゼント候補を募集する機能を追加</li>
+<li>ユーザー登録の際の、一時的なエラーを解決</li>
+<li>AWSでも画像が正しく表示されるよう、パッケージを使う</li>
+<li>SSL化</li>
+<li>テストの多用</li>
 
 ## Code of Conduct
 
