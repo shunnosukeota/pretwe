@@ -24,16 +24,16 @@
 
 ## 使用技術
 
+<li>PHP 8.1.12</li>
+<li>Node.js 16.17.1</li>
+<li>Vite 3.0/li>
+<li>Node.js 16.17.1</li>
 <li>Laravel 9.39.0</li>
-<li>PHP 8.0</li>
-<li></li>
-<li>検索</li>
-<li>評価</li>
-<li>投稿の詳細</li>
-<li>マイページ</li>
-<li>ユーザーのページ</li>
-<li>投稿の編集</li>
-<li>投稿の削除</li>
+<li>MySQL 8.0.31</li>
+<li>Mac OS(Ventura)</li>
+<li>AWS(EC2,Nginx)</li>
+<li>Heroku</li>
+<li>Docker 20.10.17</li>
 
 ## 機能一覧
 
