@@ -23,20 +23,25 @@
 より多くの投稿を集めるべく、匿名で評価を受け取ることができ、自分が贈ったプレゼントのセンスを、客観的に測ることができるメリットを投稿者に提供します。
 
 
-## 
+## 機能一覧
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<li>ユーザー登録</li>
+<li>ログイン</li>
+<li>投稿</li>
+<li>検索</li>
+<li>評価</li>
+<li>投稿の詳細</li>
+<li>マイページ</li>
+<li>ユーザーのページ</li>
+<li>投稿の編集</li>
+<li>投稿の削除</li>
 
 ## 使用方法
 
 〜投稿や評価をする場合はユーザー登録が必要です〜
 
 <h4>ユーザー登録</h4>
-　　ユーザー名、　メールアドレス、パスワードを設定します。※エラーが出た場合は、再度読み込みをすることで次に進むことができます。
+　　ユーザー名、メールアドレス、パスワードを設定します。※エラーが出た場合は、再度読み込みをすることで次に進むことができます。
 
 <h4>投稿</h4>
 
@@ -64,12 +69,12 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ※１つの投稿に対し、1人1度までです
 
-1.　他の人の投稿をタップ
-2.　５段階で評価
-3.　性別を選択
-4.　年齢を入力
-5.　コメントを入力
-6.　評価を投稿
+1. 他の人の投稿をタップ
+2. ５段階で評価
+3. 性別を選択
+4. 年齢を入力
+5. コメントを入力
+6. 評価を投稿
 
 ### Premium Partners
 
