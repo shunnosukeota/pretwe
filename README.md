@@ -117,9 +117,10 @@
 ![pretwe-ER](https://user-images.githubusercontent.com/113609549/201467185-d5be9ead-bb2b-4bb2-8c06-af99bec7d20b.png)
 
 
-## Security Vulnerabilities
+## システム構成図
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![pretwe-system](https://user-images.githubusercontent.com/113609549/201469878-2fcd0ded-6ad0-446d-8dc8-bfde500c82bf.png)
+
 
 ## License
 
