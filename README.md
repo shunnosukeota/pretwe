@@ -97,6 +97,8 @@
 
 ## 苦労した点
 
+<li>自身で開発する力をつけるため、極力人に聞かず、試行錯誤して進めた</li>
+<li>あえてコピペを減らし、理解してから打ち込んだ</li>
 <li>MacOs（M1）の開発環境構築は、文献が少ないため時間がかかった</li>
 <li>MixからViteへ移行したため、なかなかフロントエンドが反映されず苦労した</li>
 <li>評価と投稿のデータベースを結びつけることに手間がかかった</li>
@@ -122,7 +124,4 @@
 ![pretwe-system](https://user-images.githubusercontent.com/113609549/201469878-2fcd0ded-6ad0-446d-8dc8-bfde500c82bf.png)
 
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# pretwe
