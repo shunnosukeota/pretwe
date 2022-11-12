@@ -1,16 +1,29 @@
-# Present Tweet
+# プレツイ
 
-## Overview
+## 概要
 
-You can check out the app on [Heroku](http://pretwe-app.herokuapp.com)  or http://pretwe.online
+[Heroku](http://pretwe-app.herokuapp.com)  or http://pretwe.online
 
-This app is for sharing gifts you have received and gifts you have givven.
+このアプリは、貰ったプレゼントや送ったプレゼントを共有するものです。
 
-When you give someone a gift, you can refer to the actual posted gift.
+あなたが誰かにプレゼントを贈る際、実際に投稿されているプレゼントを参考にすることができます。
 
-Also, by posting, you can be evaluated by other people.
+また、あなたが投稿することで、他の人から評価をしてもらうことができます。
 
-## Learning Laravel
+## 制作背景
+
+友人からよく、「彼氏彼女にどのようなプレゼントを贈るべきか」、「お土産は何が良いか」、「合格祝いは何をあげよう」などの相談を受けます。
+
+その際、ネットを参考にするかと思いますが、どこのサイトも典型的なプレゼントばかりが紹介され、参考にならないケースが多くありました。
+
+そこで、実際に誰かが贈ったり、貰ったプレゼントを見ることができれば、相手との関係性やシチュエーションにマッチしたプレゼントを厳選できるのではと考えました。
+
+こうして、プレゼントツイートアプリ、「プレツイ」が誕生しました。
+
+より多くの投稿を集めるべく、匿名で評価を受け取ることができ、自分が贈ったプレゼントのセンスを、客観的に測ることができるメリットを投稿者に提供します。
+
+
+## 
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
