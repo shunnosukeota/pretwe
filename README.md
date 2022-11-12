@@ -31,9 +31,45 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## 使用方法
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+〜投稿や評価をする場合はユーザー登録が必要です〜
+
+<h4>ユーザー登録</h4>
+　　ユーザー名、　メールアドレス、パスワードを設定します。※エラーが出た場合は、再度読み込みをすることで次に進むことができます。
+
+<h4>投稿</h4>
+
+1. おくりもの　か　もらいものを選択
+2. プレゼントを入力
+3. お相手（自身から見たお相手との関係性）を選択
+4. お相手の年齢を入力
+5. シチュエーションを選択
+6. 説明を入力
+7. 画像を添付
+8. 投稿
+
+<h4>検索</h4>
+
+いずれか、もしくは複数を指定
+
+1. おくりもの　か　もらいものを選択
+2. お相手（自身から見たお相手との関係性）を選択
+3. お相手の年齢を入力
+4. シチュエーションを選択
+5. キーワードを入力
+6. 検索
+
+<h4>評価</h4>
+
+※１つの投稿に対し、1人1度までです
+
+1.　他の人の投稿をタップ
+2.　５段階で評価
+3.　性別を選択
+4.　年齢を入力
+5.　コメントを入力
+6.　評価を投稿
 
 ### Premium Partners
 
