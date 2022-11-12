@@ -2,6 +2,8 @@
 
 ## Overview
 
+You can check out the app on http://pretwe-app.herokuapp.com  or http://pretwe.online
+
 This app is for sharing gifts you have received and gifts you have givven.
 
 When you give someone a gift, you can refer to the actual posted gift.
