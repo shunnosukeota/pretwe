@@ -27,7 +27,7 @@
 <li>PHP 8.1.12</li>
 <li>Laravel 9.39.0</li>
 <li>Node.js 16.17.1</li>
-<li>Vite 3.0<li>
+<li>Vite 3.0</li>
 <li>MySQL 8.0.31</li>
 <li>AWS(EC2,Nginx)</li>
 <li>Heroku</li>
@@ -112,9 +112,9 @@
 <li>SSL化</li>
 <li>テストの多用</li>
 
-## Code of Conduct
+## ER
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
 
 ## Security Vulnerabilities
 
