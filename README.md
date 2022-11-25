@@ -1,67 +1,134 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# プレツイ
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![スクリーンショット 2022-11-12 19 46 08](https://user-images.githubusercontent.com/113609549/201470687-a9ad5c97-2fd5-4b17-829d-c9b01fbfc18f.jpg)
 
-## About Laravel
+## 概要
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+[Heroku](http://pretwe-app.herokuapp.com)  or http://pretwe.online
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+このアプリは、貰ったプレゼントや送ったプレゼントを共有するものです。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+あなたが誰かにプレゼントを贈る際、実際に投稿されているプレゼントを参考にすることができます。
 
-## Learning Laravel
+また、あなたが投稿することで、他の人から評価をしてもらうことができます。
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![スクリーンショット 2022-11-12 19 47 54](https://user-images.githubusercontent.com/113609549/201470710-80b25209-c176-4c92-9742-955038fbe608.jpg)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 制作背景
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+日頃から、友人と、「彼氏彼女にどのようなプレゼントを贈るべきか」、「お土産は何が良いか」、「合格祝いは何をあげよう」などの相談をします。
 
-## Laravel Sponsors
+その際、ネットを参考にするかと思いますが、どこのサイトも典型的なプレゼントばかりが紹介され、参考にならないケースが多くありました。
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+そこで、実際に誰かが贈ったり、貰ったプレゼントを見ることができれば、相手との関係性やシチュエーションにマッチしたプレゼントを厳選できるのではと考えました。
 
-### Premium Partners
+こうして、プレゼントツイートアプリ、「プレツイ」が誕生しました。
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+より多くの投稿を集めるべく、匿名で評価を受け取ることができ、自分が贈ったプレゼントのセンスを、客観的に測ることができるメリットを投稿者に提供します。
 
-## Contributing
+## 使用技術
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<li>PHP 8.1.12</li>
+<li>Laravel 9.39.0</li>
+<li>Node.js 16.17.1</li>
+<li>Vite 3.0</li>
+<li>MySQL 8.0.31</li>
+<li>AWS(EC2,Nginx)</li>
+<li>Heroku</li>
+<li>ConoHa WING</li>
+<li>Docker 20.10.17</li>
+<li>Mac OS(M1)</li>
 
-## Code of Conduct
+## 機能一覧
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<li>ユーザー登録</li>
+<li>ログイン</li>
+<li>投稿</li>
+<li>検索</li>
+<li>評価</li>
+<li>投稿の詳細</li>
+<li>ページネーション</li>
+<li>マイページ</li>
+<li>ユーザーのページ</li>
+<li>投稿の編集</li>
+<li>投稿の削除</li>
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![スクリーンショット 2022-11-12 19 48 10](https://user-images.githubusercontent.com/113609549/201470736-65f84a18-d477-4a71-9c48-800d2ed790fc.jpg)
 
-## License
+## 使用方法
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# pretwe
+〜投稿や評価をする場合はユーザー登録が必要です〜
+
+<h4>ユーザー登録</h4>
+　ユーザー名、メールアドレス、パスワードを設定します　　※エラーが出た場合は、再度読み込みをすることで次に進むことができます。
+
+<h4>投稿</h4>
+
+1. おくりもの　か　もらいものを選択
+2. プレゼントを入力
+3. お相手（自身から見たお相手との関係性）を選択
+4. お相手の年齢を入力
+5. シチュエーションを選択
+6. 説明を入力
+7. 画像を添付
+8. 投稿
+
+<h4>検索</h4>
+
+いずれか、もしくは複数を指定
+
+1. おくりもの　か　もらいものを選択
+2. お相手（自身から見たお相手との関係性）を選択
+3. お相手の年齢を入力
+4. シチュエーションを選択
+5. キーワードを入力
+6. 検索
+
+<h4>評価</h4>
+
+※１つの投稿に対し、１人１度までです
+
+1. 他の人の投稿をタップ
+2. ５段階で評価
+3. 性別を選択
+4. 年齢を入力
+5. コメントを入力
+6. 評価を投稿
+
+## こだわった点
+
+<li>クエリを使用したことで、検索結果が正確に表示される</li>
+<li>平均評価が投稿一覧に瞬時に反映されるよう、評価を視覚化した</li>
+<li>評価機能は、投稿・ユーザーごとに管理し、同ユーザーによる平均評価の荒らしを防ぐ</li>
+
+## 苦労した点
+
+<li>自身で開発する力をつけるため、極力人に聞かず、試行錯誤して進めた</li>
+<li>あえてコピペを減らし、理解してから打ち込んだ</li>
+<li>MacOs（M1）の開発環境構築は、文献が少ないため時間がかかった</li>
+<li>MixからViteへ移行したため、なかなかフロントエンドが反映されず苦労した</li>
+<li>評価と投稿のデータベースを結びつけることに手間がかかった</li>
+<li>AWSにおいて、Nginxやsock、composerの設定の際、エラーが発生し、原因解明に時間がかかった。</li>
+
+## 今後の改善点
+
+<li>ヘルプページや使い方を明示</li>
+<li>投稿者に、評価の通知機能などの新たなメリットを付加</li>
+<li>検索だけでなく、プレゼント候補を募集する機能を追加</li>
+<li>ユーザー登録の際の、一時的なエラーを解決</li>
+<li>AWSでも画像が正しく表示されるよう、パッケージを使う</li>
+<li>SSL化</li>
+<li>テストの多用</li>
+
+## ER
+
+![pretwe-ER](https://user-images.githubusercontent.com/113609549/201467185-d5be9ead-bb2b-4bb2-8c06-af99bec7d20b.png)
+
+
+## システム構成図
+
+![pretwe-system](https://user-images.githubusercontent.com/113609549/201469878-2fcd0ded-6ad0-446d-8dc8-bfde500c82bf.png)
+
+
+
