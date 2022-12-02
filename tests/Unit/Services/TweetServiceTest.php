@@ -13,7 +13,7 @@ class TweetServiceTest extends TestCase
      * @runInSeparateProcess
      * @return void
      */
-    /*public function test_check_own_tweet()
+    public function test_check_own_tweet()
     {
 
         $mock = Mockery::mock('alias:App\Models\Tweet');
@@ -30,5 +30,5 @@ class TweetServiceTest extends TestCase
 
         $result = $tweetService->checkOwnTweet(2, 1);
         $this->assertFalse($result);
-    }*/
+    }
 }

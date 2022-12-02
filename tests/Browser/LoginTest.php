@@ -14,16 +14,16 @@ class LoginTest extends DuskTestCase
      *
      * @return void
      */
-    /*public function testSuccessfulLogin()
+    public function testSuccessfulLogin()
     {
         $this->browse(function (Browser $browser) {
-            $user = User::factory()->create(); // テスト用のユーザーを作成する
+            $user = User::factory()->create();
             $browser->visit('/login')
-                    ->type('email', $user->email) // テスト用のユーザーのメールアドレスを指定する
-                    ->type('password', 'password') // パスワードを入力する
-                    ->press('LOG IN') // 「LOG IN」ボタンをクリックする
-                    ->assertPathIs('/tweet') // /tweetに遷移したことを確認する
-                    ->assertSee('つぶやきアプリ'); // ページ内に「つぶやきアプリ」が表示されていることの確認
+            ->type('email', $user->email)
+                ->type('password', 'password')
+                ->press('LOG IN')
+                ->assertPathIs('/tweet')
+                ->assertSee('プレツイ');
         });
-    }*/
+    }
 }
